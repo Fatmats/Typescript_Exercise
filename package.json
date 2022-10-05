@@ -1,0 +1,40 @@
+{
+  "name": "typescript_exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node out/app.js",
+    "prestart": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatmats/Typescript_Exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatmats/Typescript_Exercise/issues"
+  },
+  "homepage": "https://github.com/Fatmats/Typescript_Exercise#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "acorn": "^8.8.0",
+    "acorn-walk": "^8.2.0",
+    "arg": "^4.1.3",
+    "create-require": "^1.1.1",
+    "diff": "^4.0.2",
+    "json5": "^2.2.1",
+    "make-error": "^1.3.6",
+    "minimist": "^1.2.6",
+    "strip-bom": "^3.0.0",
+    "v8-compile-cache-lib": "^3.0.1",
+    "yn": "^3.1.1"
+  },
+  "keywords": [],
+  "description": ""
+}
