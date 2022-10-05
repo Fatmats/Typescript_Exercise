@@ -8,9 +8,9 @@ var p = new product_1.Product();
 p.name = "Iphone";
 p.catagory = "telefon";
 p.price = 5000;
-_productService.saveProduct(p);
-result = _productService.getById(2);
-_productService.deleteProduct(result);
-result = _productService.getProducts();
+_productService.saveProduct(p); // data kaydetme
+result = _productService.getById(2); // ıd si verilen bit datayi getirme
+_productService.deleteProduct(result); // getirien datayi silme 
+result = _productService.getProducts(); // tüm dataları getirme
 console.log(result);
 //# sourceMappingURL=app.js.map

@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\./src/app.ts",
+            "program": "${workspaceFolder}\\./src/topics/topicOne.ts",
             "runtimeArgs": ["-r" ,"ts-node/register" , "-r" , "tsconfig-paths/register"],
             "preLaunchTask": "npm: build",
             "console": "integratedTerminal",

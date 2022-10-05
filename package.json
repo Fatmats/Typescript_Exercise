@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node out/app.js",
+    "start": "node out/topics/topicOne.js",
     "prestart": "npm run build",
     "build": "tsc"
   },

@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ProductService = void 0;
 var simpleDatasource_1 = require("./simpleDatasource");
+// Oluşturduğumuz interface i burada hayata geçiyoruz. Oluşturulan ProductService IProductService i baz aldığının anlmına geliyor
 var ProductService = /** @class */ (function () {
     function ProductService() {
         var _this = this;

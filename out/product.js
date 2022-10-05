@@ -1,4 +1,5 @@
 "use strict";
+// Kullanacağimiz objenin niteliklerini ayarlıyoruz. Böylece istenmeyen datalara engel oluyoruz.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Product = void 0;
 var Product = /** @class */ (function () {
@@ -13,7 +14,7 @@ var Product = /** @class */ (function () {
     return Product;
 }());
 exports.Product = Product;
-var p = new Product();
+//? let p = new Product()
 //? eger public _id yerine private _id yasaydık
 //?  p.id şeklinde _id nitelige ulaşamazdık
 //# sourceMappingURL=product.js.map
